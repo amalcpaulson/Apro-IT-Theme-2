@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { Home } from './pages/home/Home';
 import NotFound from './pages/notFound/NotFound';
+import { Locations } from './pages/location/Location';
 
 function App() {
 
@@ -27,7 +28,10 @@ function App() {
       path: "/home",
       element: <Home />,
     },
- 
+    {
+      path: "/location",
+      element: <Locations />,
+    },
   ]);
   return <RouterProvider router={router} />;
 }
