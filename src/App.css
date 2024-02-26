@@ -1,42 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+:root {
+  font-family: "Courgette", cursive;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: "Courgette", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
 }
 
-.card {
-  padding: 2em;
+.colorText {
+  color: #a1a61a;
 }
 
-.read-the-docs {
-  color: #888;
+h1,
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
