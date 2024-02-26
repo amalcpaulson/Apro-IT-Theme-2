@@ -1,0 +1,17 @@
+.Wrapper {
+  width: fit-content;
+  min-width: 50%;
+  background: rgb(244, 244, 244);
+  padding: 12px 10% 12px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 35px;
+}
+
+.Wrapper button {
+  background-color: transparent;
+  width: fit-content;
+}

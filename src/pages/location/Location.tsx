@@ -1,14 +1,15 @@
-import { Navbar } from "../../components/navbar/Navbar";
+
 import styles from "./Location.module.css";
 import image from "../../assets/landingbg.png";
 import { Footer } from "../../components/footer/Footer";
-import { Email, Fax, Msg } from "./svg";
+import { Email, Fax, Msg } from "./svg.tsx";
+import { Navbars } from "../../components/navbar/Navbar.tsx";
 type Props = {};
 
 export const Locations = (_props: Props) => {
   return (
     <div className={styles.Wrapper}>
-      <Navbar />
+  <Navbars />
       <div>
         <img src={image} alt="" />
         <h1>Location</h1>
